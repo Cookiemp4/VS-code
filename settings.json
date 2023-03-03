@@ -38,10 +38,28 @@
  "editorWidget.background": "#111",
  "extensionButton.prominentBackground": "#111",
  "extensionButton.prominentHoverBackground": "#111",
+ //
+ "editorInfo.background": "#111",
+ "editorPane.background": "#111",
+ "quickInput.background": "#111",
+ "breadcrumb.background": "#111d",
+ "welcomePage.background": "#111",
+ "debugToolBar.background": "#111",
+ "editorGutter.background": "#111",
+ "commandCenter.background": "#111",
+ "debugIcon.stepBackForeground": "#111",
  // Text
  "textBlockQuote.background": "#111",
+ "editorGhostText.background": "#111",
+ "editorGhostText.border": "#111",
+ "editorGhostText.foreground": "#fff",
+ "symbolIcon.textForeground": "#fff",
+ "diffEditor.removedTextBackground": "#111",
  "textBlockQuote.border": "#111",
- "textCodeBlock.background": "#fff",
+ "diffEditor.removedTextBorder": "#111",
+ "diffEditor.insertedTextBackground": "#111",
+ "diffEditor.insertedTextBorder": "#111",
+ "textCodeBlock.background": "#111",
  "textLink.activeForeground": "#fff",
  "textLink.foreground": "#fff",
  "textPreformat.foreground": "#fff",
@@ -57,7 +75,7 @@
  "input.placeholderForeground": "#fff",
  "inputOption.hoverBackground": "#111",
  "inputValidation.errorBackground": "#111",
- "inputValidation.errorBorder": "#ff11",
+ "inputValidation.errorBorder": "#fff",
  "inputValidation.errorForeground": "#fff",
  "inputValidation.warningBorder": "#111",
  "inputValidation.warningBackground": "#111",
@@ -98,7 +116,7 @@
  "list.inactiveSelectionBackground": "#111",
  "list.inactiveSelectionForeground": "#fff",
  "list.invalidItemForeground": "#fff",
- "list.warningForeground": "#705f5f", //  ERROR 
+ "list.warningForeground": "#8a8a8a", //  ERROR 
  "listFilterWidget.background": "#111",
  "listFilterWidget.noMatchesOutline": "#fff",
  "listFilterWidget.outline": "#fff",
@@ -372,10 +390,21 @@
  "terminal.ansiMagenta": "#9f7efe",
  "terminal.ansiRed": "#fc2e51",
  "terminal.ansiWhite": "#cdd3e0",
- "terminal.ansiYellow": "#ff9369"
+ "terminal.ansiYellow": "#ff9369",
+ "editorLightBulb.foreground": "#000",
+ //
+ "breadcrumb.activeSelectionForeground": "#111",
+ "breadcrumb.focusForeground": "#fff", 
+ "window.activeBorder": "#111",
+ "window.inactiveBorder": "#111", 
+ "editorHoverWidget.background": "#111",
+ "editorHoverWidget.border": "#111",
+ "editorHoverWidget.foreground": "#fff",	
+ "editorGroup.border": "#111",
+ "editorGroupHeader.border":"#fff",
  },
 	
-	
+ "editor.minimap.autohide": true,
  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
  "pascal.codeNavigation": "file",
  "explorer.confirmDelete": false,
@@ -386,7 +415,7 @@
  "editor.renderWhitespace": "all",
  // Front
  "editor.fontFamily": "JetBrainsMono",
-"editor.fontSize": 16,
+ "editor.fontSize": 16,
  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
  "editor.cursorBlinking": "expand",
  "editor.bracketPairColorization.enabled": false,
@@ -414,11 +443,8 @@
  "[python]": 
  {
  "editor.formatOnType": true
- },
- "workbench.statusBar.visible": false,
+},
  "workbench.editor.enablePreview": false,
- "workbench.layoutControl.enabled": false,
-"workbench.activityBar.visible": false,
+"workbench.layoutControl.enabled": false,
 "editor.minimap.enabled": false,
-"window.menuBarVisibility": "compact",
 }
